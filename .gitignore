@@ -1,0 +1,28 @@
+# ignore the follow files
+
+apiIkeys.txt
+
+# Ignore all environment files
+.env
+.env.*
+
+# Ignore database config files
+db-config.json
+db-credentials.yaml
+secrets.json
+
+# SSL keys or certificates
+*.key
+*.pem
+*.p12
+*.enc
+*.cer
+
+# Specific folders
+config/
+secrets/
+
+# Application-specific examples
+settings.py  # for Django
+config.js    # for Node.js
+5f099bbb621894cdb0ef8e39d01f1aa9a5650ee6
